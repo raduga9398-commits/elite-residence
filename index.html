@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ELITE Residence Development</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Top header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html">
+        <!-- Replace assets/logo.png with your logo -->
+        <img class="brand__logo" src="assets/logo .png" alt="ELITE Residence Development" />
+      </a>
+
+      <nav class="nav">
+        <a class="nav__link is-active" href="index.html">Home</a>
+        <a class="nav__link" href="contact.html">Contact</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav">
+      <a class="mobile-nav__link is-active" href="index.html">Home</a>
+      <a class="mobile-nav__link" href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero__bg" style="background-image:url('assets/hero.jpg');"></div>
+    <div class="hero__overlay"></div>
+
+    <div class="container hero__content">
+      <div class="hero__left">
+        <p class="kicker">УСЛУГИ НЕДВИЖИМОСТИ</p>
+        <h1 class="hero__title">
+          Недвижимость <br />
+          Сделано <em>Правильно</em>
+        </h1>
+      </div>
+
+      <div class="hero__right">
+        <p class="hero__text">
+          Сотрудничайте с нашей опытной командой,<br />
+          чтобы уверенно ориентироваться на рынке.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="contact.html">Получить консультацию</a>
+          <a class="btn btn--ghost" href="#listings">Посмотреть объекты</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Partner -->
+  <section class="why">
+    <div class="container">
+      <h2 class="section-title">Почему стоит сотрудничать  <em>с нами</em>?</h2>
+      <p class="why__desc">
+        Мы убеждены, что успешные сделки с недвижимостью начинаются с доверия. 
+        Мы помогаем нашим клиентам, предоставляя аналитические данные и стратегические рекомендации,
+         чтобы вы чувствовали уверенность и понимали каждый этап процесса — независимо от того,
+          покупаете ли вы своё первое жильё или управляете сложным инвестиционным портфелем.
+         Наша цель — ваше долгосрочное будущее, а не просто очередная сделка.
+      </p>
+
+      <div class="why__grid">
+        <div class="feature">
+          <h3 class="feature__title">Экспертиза девелопера</h3>
+          <p class="feature__text">Мы сами проектируем и строим объекты, 
+            контролируя качество на каждом этапе — от фундамента до сдачи.</p>
+        </div>
+        <div class="feature">
+          <h3 class="feature__title">Прозрачный процесс строительства</h3>
+          <p class="feature__text">Вы получаете полную информацию о сроках, этапах работ и условиях покупки без посредников.</p>
+        </div>
+        <div class="feature">
+          <h3 class="feature__title">Фокус на клиенте</h3>
+          <p class="feature__text">Мы создаём жилые пространства, ориентированные на комфорт, инвестиционную ценность и долгосрочную надёжность.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Listings -->
+  <section class="listings" id="listings">
+    <div class="container">
+      <div class="listings__head">
+        <h2 class="section-title section-title--dark"><em>Проекты</em></h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card__img">
+            <img src="assets/listing-1.jpeg" alt="Listing 1" />
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">ELITE<br />Project 5</h3>
+            <p class="card__sub">Kikodze 2<br />Marneuli, Georgia</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__img">
+            <img src="assets/listing-2.png" alt="Listing 2" />
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">ELITE<br />Project 4</h3>
+            <p class="card__sub">Shaxin Kurbanov 6<br />Marneuli, Georgia</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__img">
+            <img src="assets/listing-3.png" alt="Listing 3" />
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">ELITE<br />Project 6</h3>
+            <p class="card__sub">Rustaveli 78<br />Marneuli, Georgia</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__img">
+            <img src="assets/listing-4.jpg" alt="Listing 4" />
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Chateau<br />Lumière</h3>
+            <p class="card__sub">Saint-Clair Fields,<br />NY</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+   
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">© Все Права Защищены.</p>
+
+      <div class="footer__social">
+        <a class="social" href="#" aria-label="Facebook">
+          <!-- simple icon -->
+          <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+            <path d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v3H7v3h3v6h3v-6h3l1-3h-4v-3c0-.6.4-1 1-1z"/>
+          </svg>
+        </a>
+
+        <a class="social" href="#" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+            <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm6.5-.8a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z"/>
+          </svg>
+        </a>
+
+        <a class="social" href="#" aria-label="X">
+          <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+            <path d="M18.9 2H22l-6.8 7.8L23 22h-6.5l-5.1-6.6L5.6 22H2.5l7.3-8.4L1 2h6.7l4.6 6L18.9 2zm-1.1 18h1.7L6.7 3.9H4.9L17.8 20z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

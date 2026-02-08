@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — ELITE Residence Development</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html">
+        <img class="brand__logo" src="assets/logo .png" alt="ELITE Residence Development" />
+      </a>
+
+      <nav class="nav">
+        <a class="nav__link" href="index.html">Home</a>
+        <a class="nav__link is-active" href="contact.html">Contact</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav">
+      <a class="mobile-nav__link" href="index.html">Home</a>
+      <a class="mobile-nav__link is-active" href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="page-hero__title">Контакты</h1>
+      <p class="page-hero__text">Оставьте заявку, и наш специалист свяжется с вами для консультации.</p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container contact__grid">
+      <div class="contact__card">
+        <h2 class="contact__title">Свяжитесь с нами</h2>
+        <p class="contact__muted">
+          
+        </p>
+
+        <div class="contact__info">
+          <div class="info-row"><span>Телефон:</span> <a href="#">+995 574 93 96 99</a></div>
+          <div class="info-row"><span>Email:</span> <a href="#">elite-residence-development@gmail.com</a></div>
+          <div class="info-row"><span>Адресс:</span> Marneuli, Georgia</div>
+        </div>
+      </div>
+
+      <form class="form" onsubmit="return false;">
+        <label class="field">
+          <span>Имя</span>
+          <input type="text" placeholder="Your name" />
+        </label>
+
+        <label class="field">
+          <span>Телефон / WhatsApp</span>
+          <input type="text" placeholder="+995..." />
+        </label>
+
+        <label class="field">
+          <span>Информация</span>
+          <textarea rows="5" placeholder="Tell us what you need..."></textarea>
+        </label>
+
+        <button class="btn btn--primary btn--full" type="submit">Отправить</button>
+        <p class="form__note"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">© Все Права Защищены.</p>
+      <div class="footer__social">
+        <a class="social" href="#" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v3H7v3h3v6h3v-6h3l1-3h-4v-3c0-.6.4-1 1-1z"/></svg>
+        </a>
+        <a class="social" href="#" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm6.5-.8a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z"/></svg>
+        </a>
+        <a class="social" href="#" aria-label="X">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 2H22l-6.8 7.8L23 22h-6.5l-5.1-6.6L5.6 22H2.5l7.3-8.4L1 2h6.7l4.6 6L18.9 2zm-1.1 18h1.7L6.7 3.9H4.9L17.8 20z"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
